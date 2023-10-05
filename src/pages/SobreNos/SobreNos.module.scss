@@ -34,8 +34,8 @@
 }
 
 .image_wrapper{
-    max-width: 30rem;
-    max-height: 36rem;
+    width: 500px;
+    height: 580px;
     border-radius: 18px;
     border: solid 1rem $cor-primaria;
     background-color: $cor-primaria;
@@ -43,8 +43,8 @@
     justify-content: center;
     align-items: center;
     .image{
-        width: 30.2rem;
-        height: 36.2rem;
+        width: 500px;
+        height: 580px;
         border-radius:10px;
         object-fit: cover;
         object-position: left;
