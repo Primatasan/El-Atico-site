@@ -1,0 +1,13 @@
+.botaoIdioma{
+    background-color: transparent;
+    border: 0;
+
+    img{
+     width: 2rem;
+     cursor: pointer;
+     transition: all 200ms ease-in-out;
+     &:hover{
+        filter: grayscale(100%);
+     }
+    }
+}

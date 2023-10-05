@@ -1,0 +1,55 @@
+@import 'src/common/styles/_variaveis.scss';
+
+.wrapper{
+    display: flex;
+    margin: 0 5rem;
+    padding: 5rem 0 0;
+}
+
+.info_wrapper{
+    margin-right: 5rem;
+}
+
+.title_wrapper{
+    display: flex;
+    align-items: end;
+    color: $cor-secundaria;
+    font-weight: bold;
+    font-size: 3rem;
+    img{
+        width: 5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.text_wrapper{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    h2{
+        margin: 0.8rem 0;
+        font-weight: bold;
+    }
+    p{
+        line-height: 1.3rem;
+        text-align: justify;
+    }
+}
+
+.image_wrapper{
+    width: 30rem;
+    height: 36rem;
+    border-radius: 18px;
+    border: solid 1rem $cor-primaria;
+    background-color: $cor-primaria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image{
+        width: 30.2rem;
+        height: 36.2rem;
+        border-radius:10px;
+        object-fit: cover;
+        object-position: left;
+    }
+}
+

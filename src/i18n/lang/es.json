@@ -1,0 +1,22 @@
+{
+    "messages":{
+        "es":{
+            "translations":{
+                "menu":{
+                    "home":"Home",
+                    "sobreNos":"Acerca de Nosotros",
+                    "servicos":"Trabaja con Nosotros",
+                    "contato":"Contacto"
+                },
+                "home":{
+                    "botao01":"Acerca de Nosotros",
+                    "botao02":"Contáctenos"
+                },
+                "footer":{
+                    "direitos":"El Ático DubHouse - 2022 - Todos los derechos reservados"
+                }
+            }
+        }
+    
+    }
+}

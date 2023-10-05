@@ -1,0 +1,24 @@
+@import '/src/common/styles/_variaveis.scss';
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin: 0.5rem;
+
+    .icone{
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+        color: $cor-primaria;
+        transition: all 200ms ease-in-out;
+        &:hover{
+            color: $cor-secundaria;
+        }
+    }
+
+    p{
+        color: $cor-primaria;
+        font-size: 0.8rem;
+    }
+}

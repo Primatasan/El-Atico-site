@@ -1,0 +1,33 @@
+@import '/src/common/styles/_variaveis.scss';
+
+.botaoAbrir{
+    background-color: transparent;
+    border: 0;
+    font-size: 2rem;
+    color: $cor-primaria;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    .closeIcon{
+        font-size: 2rem;
+        margin: 1rem;
+        cursor: pointer;
+    }
+    .itemMenuWrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 2rem 0 ;
+        .itemMenu{
+            font-size: 1.5rem;
+            color: $cor-primaria;
+            text-decoration: none;
+            margin: 0.8rem 0;
+            &:hover{
+                color:$cor-secundaria;
+            }
+        }
+    }
+}
+
