@@ -1,5 +1,6 @@
 .wrapper{
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -9,8 +10,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 400px;
-    height: 400px;
+    width: 22vw;
+    height: 22vw;
     transition: all 300ms ease-in-out;
     cursor: pointer;
     &:hover{
@@ -23,8 +24,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 400px;
-    height: 400px;
+    width: 22vw;
+    height: 22vw;
     transition: all 300ms ease-in-out;
     cursor: pointer;
     
@@ -55,14 +56,14 @@
 
 .logoWrapper{
     display: flex;
-    width: 400px;
-    height: 250px;
+    width: 22vw;
+    height: 15vw;
     align-items: baseline;
 }
 
 .logo{
     object-fit: contain;
-    width: 400px;
+    width: 22vw;
 }
 
 .emptyDivC{
