@@ -1,7 +1,8 @@
 .mainSection{
+    overflow: scroll;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2vh 5vw;
-    min-height: 88vh;
+    height: 88vh;
 }
