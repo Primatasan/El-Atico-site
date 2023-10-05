@@ -34,8 +34,8 @@
 }
 
 .image_wrapper{
-    width: 30rem;
-    height: 36rem;
+    max-width: 30rem;
+    min-height: 36rem;
     border-radius: 18px;
     border: solid 1rem $cor-primaria;
     background-color: $cor-primaria;
